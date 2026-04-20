@@ -1,0 +1,70 @@
+{
+  "name": "J MOVIES UG",
+  "short_name": "JMOVIES",
+  "description": "Premium Luganda Movies Streaming Platform",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0c0c0c",
+  "theme_color": "#e50914",
+  "orientation": "portrait",
+  "scope": "./",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "https://img.icons8.com/color/72/000000/film-reel.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://img.icons8.com/color/144/000000/film-reel.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://img.icons8.com/color/192/000000/film-reel.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://img.icons8.com/color/512/000000/film-reel.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80",
+      "sizes": "1080x1920",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "Movie Streaming Interface"
+    }
+  ],
+  "categories": ["entertainment", "movies", "streaming"],
+  "shortcuts": [
+    {
+      "name": "Browse Movies",
+      "short_name": "Movies",
+      "description": "Browse all Luganda movies",
+      "url": "./#movies",
+      "icons": [{
+        "src": "https://img.icons8.com/color/96/000000/movie.png",
+        "sizes": "96x96"
+      }]
+    },
+    {
+      "name": "My Downloads",
+      "short_name": "Downloads",
+      "description": "View downloaded movies",
+      "url": "./#downloads",
+      "icons": [{
+        "src": "https://img.icons8.com/color/96/000000/download.png",
+        "sizes": "96x96"
+      }]
+    }
+  ]
+}
